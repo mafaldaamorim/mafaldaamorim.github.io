@@ -1,0 +1,244 @@
+* {	
+	margin-left:0;
+	margin-right:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Futura', sans-serif;
+}
+
+html {
+	height: 100%;
+	margin:0;
+
+}
+
+.vp {
+	width: 100vw;
+}
+
+.fst {
+	height: 58vh;
+}
+
+.scnd {
+	height: 100vh;
+}
+
+.bigpic {
+	width: 100%;
+	height: 94vh;
+	margin-top: 3vh;
+}
+
+.sides {
+	padding: 0;
+}
+
+
+.hi {
+	margin-top: 20vh;
+	margin-bottom: 0;
+	font-size: 20vh;
+	font-weight: bolder;
+	line-height: 1;
+}
+
+.name {
+	margin-left: 8px;
+	font-size: 2.5vh;
+	font-weight: bold;
+}
+
+
+/*content*/
+
+.r1,
+.r3 {
+	max-width: 65%;
+	margin-top: 25%;
+	margin-left: 20%;
+}
+
+.uni,
+.ux {
+	margin-top: 50%;
+	margin-left: 10%;
+	max-width: 70%;
+	font-size: 18px;
+	
+}
+
+.code,
+.final {
+	margin-top: 45%;
+	margin-left: 20%;
+	max-width: 70%;
+	font-size: 18px;
+	
+}
+
+.r2, 
+.r4 {
+	max-width: 65%;
+	margin-top: 25%;
+	margin-right: 25%;
+	margin-left: 10%;
+}
+
+
+
+
+.bridge {
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 20%;
+	text-align: center;
+	color: #008F8A;
+}
+
+.hire {
+	margin-top: 7%;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #FF537B;
+}
+
+.sub1 {
+	margin-left: 20%;
+	margin-top: 25%;
+	margin-bottom: 5%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #008F8A;
+
+}
+
+.sub2 {
+	margin-left: 20%;
+	margin-top: 25%;
+	margin-bottom: 5%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #008F8A;
+}
+
+.leftlink :link, :visited {
+	text-decoration: none;
+	margin-left: 20%;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF537B;
+
+}
+
+.leftlink :hover {
+	text-decoration: none;
+	margin-left: 20%;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFDB9A;
+
+}
+
+.rightlink :link, :visited {
+	text-decoration: none;
+	margin-left: 20%;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF537B;
+}
+
+.rightlink :hover {
+	text-decoration: none;
+	margin-left: 20%;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFDB9A;
+}
+
+.container-fluid {
+	padding: 0;
+	margin-top: 15vh;
+}
+
+.foot {
+	height: 15vh;
+	background-color: #FFDB9A;
+}
+
+.ty {
+	text-align: center;
+	color: #008F8A;
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 30px;
+	margin: 0;
+
+
+}
+
+@media (max-width: 768px) {
+	
+	.r1,
+	.r2,
+	.r3,
+	.r4 {
+		max-width: 90%;
+		margin-top: 30%;
+	}
+
+	.r1,
+	.r3 {
+		margin-left: 10%;
+	}
+
+	.uni,
+	.ux,
+	.code,
+	.final {
+		font-size: 14px;
+	}
+
+	.code,
+	.final {
+		margin-top: 60%;
+	}
+
+}
+
+@media (max-width: 415px) {
+
+	.hi {
+		font-size: 13vh;
+	}
+	.name {
+		font-size: 1.5vh;
+	}
+
+	.r1,
+	.r2,
+	.r3,
+	.r4 {
+		max-width: 100%;
+		margin-top: 50%;
+	}
+
+	.uni,
+	.ux,
+	.code,
+	.final {
+		max-width: 100%;
+		margin-top: 60%;
+	}
+
+	.bridge {
+		max-width: 100%;
+		font-size: 15px;
+		margin-top: 35%;
+	}
+
+	.hire {
+		margin-top: 25%;
+	}
+}
