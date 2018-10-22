@@ -9,7 +9,7 @@
 html {
 	height: 100%;
 	margin:0;
-
+	overflow-x: hidden;
 }
 
 .vp {
@@ -129,7 +129,6 @@ html {
 	font-size: 16px;
 	font-weight: bold;
 	color: #FF537B;
-
 }
 
 .leftlink :hover {
@@ -178,7 +177,7 @@ html {
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 416px) and (max-width: 768px) {
 	
 	.r1,
 	.r2,
@@ -240,5 +239,29 @@ html {
 
 	.hire {
 		margin-top: 25%;
+	}
+
+	.sub1 {
+		margin-left: 14%;
+	}
+
+	.sub2 {
+		margin-left: 14%;
+	}
+
+	.leftlink :link, :visited {
+		text-decoration: none;
+		margin-left: 5%;
+		font-size: 16px;
+		font-weight: bold;
+		color: #FF537B;
+	}
+
+	.rightlink :link, :visited {
+		text-decoration: none;
+		margin-left: 5%;
+		font-size: 16px;
+		font-weight: bold;
+		color: #FF537B;
 	}
 }
